@@ -1,0 +1,6 @@
+ <ul class="nav nav-pills">
+     {% include 'auths/profile/include/both_navbar_fields.html' %}
+            <li role="presentation" class="{% if page == 'settings' %}active{% endif %}"><a href="{% url 'user_settings'%}">Ayarlar</a> </li>
+            <li role="presentation" class="{% if page == 'password_change' %}active{% endif %}"><a href="{% url 'user_password_change'%}">Şifre</a> </li>
+
+ </ul>

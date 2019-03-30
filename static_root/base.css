@@ -1,0 +1,21 @@
+body {
+              background: url("img/ma.jpg") no-repeat center center fixed;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+        }
+
+
+.user-profile-image{
+    width: 150px;
+}
+
+.glyphicon-star {
+    color: #cccccc;
+    font-size: 16px;
+}
+
+.glyphicon-star.active {
+    color: #FDB230;
+}
